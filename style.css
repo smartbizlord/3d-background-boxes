@@ -1,0 +1,48 @@
+.active {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #031629 100%);
+    /* min-width: 50%; */
+}
+
+.contain {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#cardContainer {
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    #root {
+        overflow-y: scroll !important;
+    }
+    #cardContainer {
+        flex-direction: column !important;
+        /* gap: .4rem !important; */
+    }
+    .contain {
+        height: 10vh !important;
+        width: 89vw !important;
+    }
+    .active {
+        min-height: 50vh !important;
+        height: 50vh !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+}
+
+@media screen and (max-width: 760px) {
+    
+}
+
+@media screen and (max-width: 900px) {
+    
+}
+
+@media screen and (max-width: 1050px) {
+    
+}
